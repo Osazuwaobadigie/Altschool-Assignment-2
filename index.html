@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up form</title>
+    <link
+      rel="stylesheet"
+      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/AltSchool-Assignment-2/style.css" />
+  </head>
+  <body>
+    </div>
+    <div class="wrapper">
+      <aside>
+        <section class="header">
+          <div class="header_logo">
+            <img src="/AltSchool-Assignment-2/Assets/Logo.png" alt="logo" />
+          </div>
+          <h2>For Individuals</h2>
+          <p class="big-screen">
+            Start benefiting from the wellness experience. For companies looking
+            on increasing productivity, and improving organization wellness.
+          </p>
+          <p class="mobile">Inspiring wholesome harmony for the mind, body and spirit, for everyone, everywhere.</p>
+        </section>
+      </aside>
+      <main>
+        <section class="main">
+          <form action="#" class="form">
+            <div class="column">
+              <div class="input-box">
+                <label for="first name">First Name</label>
+                <input
+                type="text"
+                id="first name"
+                name="first name"
+                placeholder="Tolu"
+              />
+              </div>
+              <div class="input-box">
+                <label for="last name">Last Name</label>
+                <input type="text" id="last name" name="last name" />
+              </div>
+            </div>
+            <div class="column">
+              <div class="gender-box">
+                <div class="select-box">
+                  <label for="gender">Gender</label>
+                  <select>
+                    <option hidden>select here</option>
+                    <option>Male</option>
+                    <option>Female</option>
+                  </select>
+                </div> 
+              </div>  
+              <div class="input-box">
+                <label for="birth-date">Date of Birth</label>
+                <input type="date" id="birth-date" name="birth-date" />
+              </div>  
+            </div>
+            <div class="column">  
+              <div class="input-box">
+                <label for="weight">Weight (KG)</label>
+                <input
+                type="number"
+                id="weight"
+                name="weight"
+                placeholder="Enter weight"
+                />
+              </div>
+              <div class="input-box">
+                <label for="height">Height (CM)</label>
+                <input
+                type="number"
+                id="height"
+                name="height"
+                placeholder="Enter height here"
+                />
+              </div>
+            </div>  
+              <div class="activity-box">
+              <div class="select-box">
+                <label for="Activity">Activity level</label>
+                <select>
+                  <option>Select here</option>
+                  <option>1</option>
+                  <option>2</option>
+                </select>
+              </div>
+            </div>
+            <div class="input-box">
+              <label for="password">Password</label><br>
+              <input
+              type="password"
+              id="password"
+              name="password"
+              pattern="[a-z0-5]{8,}"
+            />
+            </div>
+            <button>Register</button>       
+            <footer>
+            By clicking Register, you agree to our
+            <a href="#">terms of Use</a> and our <a href="#">Privacy Policy</a>
+            </footer>
+          </form>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
